@@ -24,7 +24,24 @@ python manage.py makemigrations tweets
 python manage.py migrate
 ```
 
-### User login
+### User creation
 ```
 python manage.py createsuperuser
 ```
+
+## Run
+
+### Test mode
+- Ramp up server
+```
+python manage.py runserver 8000
+```
+- Send request to server
+```
+curl --max-time 1 http://127.0.0.1:8000/get_tweets
+```
+
+### Production mode
+- Set DEBUG flag to False
+- Set up Postgres database
+- Set up Apache server
