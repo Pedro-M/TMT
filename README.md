@@ -17,3 +17,14 @@ python3 -m venv tmtenv
 source tmtenv/bin/activate
 pip install -r requirements.txt
 ```
+
+### Database migration
+```
+python manage.py makemigrations tweets
+python manage.py migrate
+```
+
+### User login
+```
+python manage.py createsuperuser
+```
