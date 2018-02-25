@@ -31,6 +31,13 @@ python manage.py createsuperuser
 
 ## Run
 
+### Input definition
+- Add Twitter keys
+- Set keywords:
+  - Fill target list
+  - Fill direct references list
+  - Fill false direct references list
+
 ### Test mode
 - Ramp up server
 ```
