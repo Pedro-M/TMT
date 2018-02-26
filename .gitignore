@@ -3,5 +3,5 @@ tmtenv
 migrations
 __pycache__
 db.sqlite3
-keys.py
-targets.py
+input
+keys
