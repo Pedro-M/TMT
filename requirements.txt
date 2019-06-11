@@ -1,4 +1,4 @@
-Django==1.11.7
+Django>=1.11.21
 psycopg2==2.7.3.2
 tweepy==3.5.0
 
